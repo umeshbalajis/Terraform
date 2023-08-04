@@ -28,4 +28,10 @@ State Management:
 
 Terraform Commands:
 
-init -> Prepare your working directory for other commands validate -> Check whether the configuration is valid plan -> Show changes required by the current configuration apply -auto-approve -> Create or update infrastructure apply -var-file="varfile.tfvars" -> Pass in variables contained in a file -chdir=environments/production apply -> Switching working directory destroy -auto-approve -> Destroy previously-created infrastructure
+init -> Prepare your working directory for other commands 
+validate -> Check whether the configuration is valid 
+plan -> Show changes required by the current configuration 
+apply -auto-approve -> Create or update infrastructure 
+apply -var-file="varfile.tfvars" -> Pass in variables contained in a file 
+-chdir=environments/production apply -> Switching working directory 
+destroy -auto-approve -> Destroy previously-created infrastructure
