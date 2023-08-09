@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket         = "testqtreedata4"
-    key            = "terraform.tfstate" // update terraform remote state bucket name
+    bucket         = "testqtreedata4" // update terraform remote state bucket name
+    key            = "terraform.tfstate" 
     region         = "us-east-1"
   }
 }
